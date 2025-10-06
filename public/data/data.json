@@ -1,0 +1,66 @@
+{
+  "projectName": "MERN_Architecture_Template",
+  "frontend": {
+    "src": {
+      "components": [
+        "Header.jsx",
+        "Footer.jsx",
+        "Navbar.jsx",
+        "Button.jsx"
+      ],
+      "pages": [
+        "Home.jsx",
+        "About.jsx",
+        "Contact.jsx",
+        "Dashboard.jsx"
+      ],
+      "layouts": [
+        "MainLayout.jsx",
+        "AuthLayout.jsx"
+      ],
+      "hooks": [
+        "useAuth.js",
+        "useFetch.js"
+      ],
+      "context": [
+        "AuthContext.js",
+        "ThemeContext.js"
+      ],
+      "services": [
+        "apiClient.js",
+        "userService.js",
+        "productService.js"
+      ],
+      "store": [
+        "index.js",
+        "userSlice.js"
+      ],
+      "assets": {
+        "images": [],
+        "icons": [],
+        "fonts": []
+      },
+      "styles": [
+        "global.css",
+        "variables.css",
+        "theme.css"
+      ],
+      "utils": [
+        "helpers.js",
+        "constants.js"
+      ],
+      "routes": [
+        "AppRouter.jsx",
+        "ProtectedRoute.jsx"
+      ],
+      "tests": [
+        "App.test.js",
+        "Button.test.js"
+      ],
+      "index.js": "Entry point for React DOM rendering"
+    },
+    "package.json": "Project dependencies and scripts",
+    ".env": "Environment variables for frontend",
+    "README.md": "Documentation for setup and usage"
+  }
+}
